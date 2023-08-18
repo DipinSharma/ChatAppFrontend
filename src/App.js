@@ -1,10 +1,10 @@
 import React from 'react'
-import QuestionPage from './modules/ide/pages/QuestionPage'
-import { UserPage } from './modules/user/pages/UserPage'
+import {ChatPage} from './modules/ide/pages/ChatPage.jsx'
+// import { Chat } from './modules/ide/components/Chat.jsx'
 
 function App() {
   return (
-    <UserPage />
+    <ChatPage currentUser="64de9a31980a20eee0f5d92c"/>
   )
 }
 
